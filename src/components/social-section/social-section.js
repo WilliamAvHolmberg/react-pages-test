@@ -3,27 +3,31 @@ import './social-section.scss'
 
 function SocialSection(){
   return (
-    <div className="social-section">
-        <div className="teaser">
-          {/*}
-          <p> Bracket with limited number of players </p>
-          <img src="https://www.samplewords.com/docthumbs/home-social-32-thumb.jpg"/> 
-          */}
-        </div>
-        <div className="info">
+    <div id="social" className="social-section">
+        <div className="social-left-side">
           <p class="section-title"> Social Event </p>
+          <span className={'malin '}></span>
+        </div>
+        <div className="right-side">
+
           <div className="info-row">
-            <img style={{height: '150px', marginleft:'40px'}} src="https://image.spreadshirtmedia.com/image-server/v1/mp/designs/13512299,width=178,height=178,version=1496199967/we-go-together-like-beer-and-pizza-relationship.png"/>
-            <p className="info-label"> Beer & Food</p>
+            <p className="info-label"> Welcome to our Social Event! </p>
+            <img src="https://blog.joypixels.com/content/images/2019/06/clinking_beer_mugs_1024.gif" style={{height: '150px', marginLeft:'20px'}}/>
           </div>
-          <div className="info-row" style={{justifyContent: 'flex-end'}}>
+          <p className="info-text">
+            We will be serving Beer and Food and 
+            for everybodies enjoyment there will be a Soundsystem as well as Spotlights, its going to be a party - to say the least. 
+            Don't forget the Ping Pong Tournament 
+          </p>
+
+          {/*<div className="info-row" style={{justifyContent: 'flex-end'}}>
             <p className="info-label"> Soundsystem & Spotlights</p>
-            <img src="https://cdn.pixabay.com/photo/2017/07/18/17/30/surround-2516480_960_720.png" style={{height: '125px', float: 'right', marginRight: '-10px'}}/>
+            <img src="" style={{height: '125px', float: 'right', marginRight: '-10px'}}/>
           </div>
           <div className="info-row">
-            <img style={{height: '150px'}} src="https://tablegameshub.com/wp-content/uploads/2017/10/boy-1299876_1280.png"/>
+            <img style={{height: '150px'}} src=""/>
             <p className="info-label"> Warmup around the Table</p>
-          </div>
+          </div>*/}
         </div>
     </div>
   )

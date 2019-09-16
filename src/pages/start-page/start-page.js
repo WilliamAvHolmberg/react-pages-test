@@ -8,8 +8,9 @@ function StartPage() {
   return (
     <div className="App">
       <Hero/>
-      <TournamentSection/>
       <SocialSection/>
+      <TournamentSection/>
+    
     </div>
   );
 }

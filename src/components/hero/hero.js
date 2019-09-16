@@ -9,6 +9,7 @@ function Hero(){
     console.log("SITE INITIALIZED");
     setLoaded(true);
   }, []);
+
   return (
     <div className="hero">
       <div className="hero-left-side">
@@ -21,6 +22,12 @@ function Hero(){
           <p>Sign up Now</p>
         </div>
       </div>
+      <p onClick={() => {
+        var elmnt = document.getElementById("social");
+        elmnt.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }}className={'malins-knapp ' + (siteLoaded? 'show' : 'hidden' )}> Get To Know More </p>
   </div>
   )
 }

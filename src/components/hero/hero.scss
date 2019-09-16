@@ -23,7 +23,7 @@
 
     .hero-date {
       font-size: 95px;
-      transition: all 1.2s ease-in-out;
+      transition: all 1.9s ease-in-out;
     }
   
     .hero-date.show {
@@ -38,7 +38,7 @@
       background-color: #C5BF8A;
       margin-left: 2.5vw;
       height: 0px;
-      transition: height 1.2s ease-in-out;
+      transition: height 1.9s ease-in-out;
       width: 2px;
     }
 
@@ -52,7 +52,7 @@
 
   .hero-right-side {
     align-self: center;
-    transition: margin-top 1.2s ease-in-out;
+    transition: margin-top 1.9s ease-in-out;
     padding-left: 2vw;
     height: 40vh;
     
@@ -71,10 +71,14 @@
       text-align: center;
       width: 300px;
       height: 60px;
+
+      p {
+        font-weight: 300;
+      }
     }
     
     .show-interest-button:hover {
-      box-shadow: 0 0 5px 1px white;
+      box-shadow: 0 0 5px 0px white;
       cursor: pointer;
     }
   }
@@ -84,5 +88,24 @@
   .hero-right-side.hidden {
     margin-top: 150vh;
   }
+
 }
   
+.malins-knapp {
+  border-bottom: solid 0.5px white;
+  color: white;
+  position: absolute;
+  opacity: 0;
+  bottom: 30px;
+  left: 44vw;
+  transition: all 0.5s ease-in-out,opacity 5s ease-in-out;
+}
+
+.malins-knapp:hover {
+  cursor: pointer;
+  left: 43.5vw;
+  letter-spacing: 1px;
+}
+.malins-knapp.show {
+  opacity: 1;
+}
