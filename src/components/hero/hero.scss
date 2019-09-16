@@ -1,48 +1,88 @@
 .hero {
-  background-image: linear-gradient(to left, #3778c2c9, #3778c2);
+  background:#3778c2;
   display: flex;
   height: 100vh;
-  .hero-content {
-    align-self: center;
-    height: 40vh;
-    width: 100%;
+  width: 100vw;
+
+  h1 {
+    color: #D6E9E5;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: right;
+  }
+  .hero-left-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45vw;
+
 
     h1 {
-      color: #D6E9E5;
-      margin-left: 40px;
-      font-weight: 100;
-      font-size: 50px;
+      text-align: right;
     }
-    
+
     .hero-date {
       font-size: 95px;
+      transition: all 1.2s ease-in-out;
     }
+  
+    .hero-date.show {
+      margin-top: 0px;
+    }
+  
+    .hero-date.hidden {
+      margin-top: -1300px;
+    }
+
+    .malin {
+      background-color: #C5BF8A;
+      margin-left: 2.5vw;
+      height: 0px;
+      transition: height 1.2s ease-in-out;
+      width: 2px;
+    }
+
+    .malin.show {
+      height: 300px;
+    }
+    .malin.hidden {
+      height: 0px;
+    }
+  }
+
+  .hero-right-side {
+    align-self: center;
+    transition: margin-top 1.2s ease-in-out;
+    padding-left: 2vw;
+    height: 40vh;
     
     .hero-desc {
       font-size: 45px;
     }
 
     .show-interest-button {
-      background-color: #EADFC9;
-      //Eventuellt background-color: #DFAA37;
-      border-radius: 3px;
-      box-shadow: 6px 6px 16px 4px dimgrey;
-      color: black;
+      background-color: #C5BF8A;
+      border-radius: 7.5px;
+      color: white;
       font-size: 30px;  
       line-height: 60px;
       margin: 35px 100px;
-      transition: width 0.3s ease-in-out;
+      transition: box-shadow .1s ease-in-out;
       text-align: center;
       width: 300px;
       height: 60px;
     }
     
     .show-interest-button:hover {
-      background-color: #cab999;
-      //eventuellt background-color: #ca9a34;
+      box-shadow: 0 0 5px 1px white;
       cursor: pointer;
-      width: 310px;
     }
+  }
+  .hero-right-side.show {
+    margin-top: 29vh!important;
+  }
+  .hero-right-side.hidden {
+    margin-top: 150vh;
   }
 }
   

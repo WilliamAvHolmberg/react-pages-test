@@ -22,8 +22,7 @@ code {
   /*
   font-family: 'Open Sans Condensed', sans-serif;
   font-family: 'Titillium Web', sans-serif;
-  font-family: 'Manjari', sans-serif;
-  */
   font-family: 'Quicksand', sans-serif; /*1*/
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 300;
 }
