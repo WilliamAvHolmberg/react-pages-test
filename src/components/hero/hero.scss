@@ -1,0 +1,48 @@
+.hero {
+  background-image: linear-gradient(to left, #3778c2c9, #3778c2);
+  display: flex;
+  height: 100vh;
+  .hero-content {
+    align-self: center;
+    height: 40vh;
+    width: 100%;
+
+    h1 {
+      color: #D6E9E5;
+      margin-left: 40px;
+      font-weight: 100;
+      font-size: 50px;
+    }
+    
+    .hero-date {
+      font-size: 95px;
+    }
+    
+    .hero-desc {
+      font-size: 45px;
+    }
+
+    .show-interest-button {
+      background-color: #EADFC9;
+      //Eventuellt background-color: #DFAA37;
+      border-radius: 3px;
+      box-shadow: 6px 6px 16px 4px dimgrey;
+      color: black;
+      font-size: 30px;  
+      line-height: 60px;
+      margin: 35px 100px;
+      transition: width 0.3s ease-in-out;
+      text-align: center;
+      width: 300px;
+      height: 60px;
+    }
+    
+    .show-interest-button:hover {
+      background-color: #cab999;
+      //eventuellt background-color: #ca9a34;
+      cursor: pointer;
+      width: 310px;
+    }
+  }
+}
+  

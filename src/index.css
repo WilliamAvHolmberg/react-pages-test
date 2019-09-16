@@ -8,6 +8,22 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  /*font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",monospace;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Manjari', sans-serif;
+  */
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.div, h1, h2, h3, h4, p, a {
+  margin: 0px;
+  padding: 0px;
+  /*
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Manjari', sans-serif;
+  */
+  font-family: 'Quicksand', sans-serif; /*1*/
+  font-size: 20px;
 }

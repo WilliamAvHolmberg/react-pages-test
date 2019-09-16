@@ -1,0 +1,33 @@
+.social-section {
+  background:#FC563B;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100vh;
+
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 725px;
+    margin: 250px 0px 0px 40px;
+
+    .section-title {
+      font-size: 95px;
+      margin-bottom: 50px;
+    }
+    .info-row {
+      display: flex;
+      flex-direction: row;
+      margin: -10px 0px 0px 0px;
+      .info-label {
+          align-self: center;
+      }
+   }
+  }
+
+  .teaser {
+
+  }
+}
