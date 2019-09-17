@@ -1,20 +1,21 @@
 .tournament-section {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   height: 100vh;
   width: 100vw;
 
-  
-  .info {
-    display: flex;
-    flex-direction: column;
-    margin: 250px 40px 0px 0px;
-
+  .left-side {
     .section-title {
       font-size: 95px;
       margin-bottom: 50px;
     }
+
+    .malin {
+      background-color: black;
+      height: 500px;
+    }
+  }
+  .right-side {
     .info-row {
       display: flex;
       flex-direction: row;
@@ -22,11 +23,8 @@
       .info-label {
           align-self: center;
           margin: 10px;
+          font-weight: 300;
       }
    }
-  }
-
-  .teaser {
-
   }
 }

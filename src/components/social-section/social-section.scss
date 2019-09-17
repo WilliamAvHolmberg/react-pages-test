@@ -1,5 +1,5 @@
 .social-section {
-  background:white;
+  background:whitesmoke;
   color: #3778c2;
   display: flex;
   flex-direction: row;
@@ -7,32 +7,27 @@
   height: 100vh;
   width: 100vw;
 
-  .social-left-side {
+  .left-side {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 45vw;
     .section-title {
       font-size: 120px;
-      
     }
     .malin {
       background-color: #3778c2;
-      margin-left: 2.5vw;
       height: 500px;
-      transition: height 1.2s ease-in-out;
-      width: 2px;
     }
   }
   .right-side {
     display: flex;
     flex-direction: column;
-    margin: 250px 0px 0px 40px;
 
     .info-row {
       display: flex;
       flex-direction: row;
-      margin: 20px 0px -20px 0px;
+      margin: 0 0px -20px 0px;
       .info-label {
           
           align-self: center;
@@ -44,9 +39,26 @@
       width: 450px;
       font-weight: 200;
       font-size: 32px;
-
     }
+
+  }
+  
+  
+  .malins-knapp {
+    border-bottom: solid 0.5px #3778c2;
+    font-weight: 300;
+    position: absolute;
+    bottom: -97vh;
+    left: 44vw;
+    transition: all 0.5s ease-in-out,opacity 5s ease-in-out;
   }
 
- 
+  .malins-knapp:hover {
+    cursor: pointer;
+    left: 43.5vw;
+    letter-spacing: 1px;
+  }
+  .malins-knapp.show {
+    opacity: 1;
+  }
 }

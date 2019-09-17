@@ -26,3 +26,8 @@ code {
   font-size: 25px;
   font-weight: 100;
 }
+
+.button:hover {
+  box-shadow: 0 0 5px 0px white;
+  cursor: pointer;
+}

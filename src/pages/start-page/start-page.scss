@@ -4,3 +4,25 @@
   width: 100%;
 
 }
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 45vw;
+
+  .malin {
+    background-color: #C5BF8A;
+    margin-left: 2.5vw;
+    height: 0px;
+    transition: height 1.9s ease-in-out;
+    width: 2px;
+  }
+}
+
+.right-side {
+  align-self: center;
+  transition: margin-top 1.9s ease-in-out;
+  padding-left: 2vw;
+  height: 40vh;
+}

@@ -4,8 +4,8 @@ import './social-section.scss'
 function SocialSection(){
   return (
     <div id="social" className="social-section">
-        <div className="social-left-side">
-          <p class="section-title"> Social Event </p>
+        <div className="left-side">
+          <p className="section-title"> Social Event </p>
           <span className={'malin '}></span>
         </div>
         <div className="right-side">
@@ -29,6 +29,12 @@ function SocialSection(){
             <p className="info-label"> Warmup around the Table</p>
           </div>*/}
         </div>
+        <p onClick={() => {
+          var elmnt = document.getElementById("tournament");
+          elmnt.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }}className={'malins-knapp '}> About The Tournament </p>
     </div>
   )
 }
