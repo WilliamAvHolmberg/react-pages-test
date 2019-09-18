@@ -89,7 +89,7 @@
   }
   .read-more-button-container {
     position: absolute;
-    bottom: 30px;
+    top: calc(100vh - 45px);
     width: 99vw;
     .read-more-button {
       border-bottom: solid 1px white;
@@ -132,7 +132,7 @@
     .left-side {
       flex-direction: column;
       width: 100vw;
-      height: 50vh;
+      height: 40vh;
 
       .hero-date {
         font-size: 70px;
@@ -147,7 +147,7 @@
     .right-side {
       align-self: center;
       flex-direction: column;
-      height: 50vh;
+      height: 60vh;
       overflow: hidden;
       .right-side-content {
         margin-top: 0px;
@@ -164,8 +164,16 @@
       .show-interest-button {
         margin: 0px auto;
       }
+
+      .form-side {
+        width: auto;
+        display: block;
+      }
+      .form-side.hide-form {
+        margin-top: 60vh;
+      }
       .form-side.show-form {
-        margin-top: 0px;
+        margin-top: 50px;
       }
 
 

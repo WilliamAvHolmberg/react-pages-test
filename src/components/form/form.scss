@@ -29,3 +29,21 @@ input {
 .enabled {
     opacity: 1;
 }
+
+
+@media (max-width: 878px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input {
+            margin-top: 5px;
+            max-width: 80vw;
+        }
+
+        button {
+            margin-top: 5px;
+            margin-left: 0px;
+        }
+    }
+}
