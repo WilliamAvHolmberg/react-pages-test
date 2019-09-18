@@ -3,9 +3,19 @@
   overflow: hidden;
   width: 550px;
   height: 55px;
-  .hero-desc {
+  .desc {
     font-size: 45px;
-    text-align: left;
+    text-align: center;
     transition: all 2s ease-in-out;
+    height: 55px;
+  }
+}
+
+
+@media (max-width: 868px){ 
+  .content {
+    .desc {
+      font-size: 30px;
+    }
   }
 }

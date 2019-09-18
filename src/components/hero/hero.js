@@ -21,18 +21,18 @@ function Hero(){
         <h1 className={'hero-date ' + (siteLoaded? 'show' : 'hidden') }> 23 October</h1>
         <span className={'malin ' + (siteLoaded? 'show' : 'hidden')}></span>
       </div>
-      <div className={'right-side ' + (siteLoaded? 'show ' : 'hidden ') + (showForm? 'show-form ' : 'hide-form ')}>
-        <div className={'right-side-content'}>
+      <div className={'right-side'}>
+        <div className={'right-side-content '+ (siteLoaded? 'show ' : 'hidden ') + (showForm? 'show-form ' : 'hide-form ')}>
           <TextLoop array={array} interval={7500}/>
-        </div>
-        <div onClick={() => setShowForm(true)}className="show-interest-button button">
+          <div onClick={() => setShowForm(true)}className="show-interest-button button">
             <p>Sign up Now</p>
-        </div>
-        <div className={'form-side ' + (showForm? 'show-form ': 'hide-form')}>
-            <Form/>
-            <p className="close button" onClick={() => setShowForm(false)}>
-              X
-            </p>
+          </div>
+          <div className={'form-side ' + (showForm? 'show-form ': 'hide-form')}>
+              <Form/>
+              <p className="close button" onClick={() => setShowForm(false)}>
+                X
+              </p>
+          </div>
         </div>
       </div>
       <p onClick={() => {

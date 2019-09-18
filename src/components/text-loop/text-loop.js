@@ -17,7 +17,7 @@ function TextLoop(props){
     return (
         <div className="content">
             {props.array.map((text,index) =>{
-                return (<h1 className={'hero-desc ' + ((index === 0)? 'first ' : 'nein ')} style={{marginTop: (index===0)? margin + 'px': '0px'}}> {text}</h1>)
+                return (<h1 className={'desc ' + ((index === 0)? 'first ' : 'nein ')} style={{marginTop: (index===0)? margin + 'px': '0px'}}> {text}</h1>)
             })}
           </div>
     )
