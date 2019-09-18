@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-pages-test/static/css/main.18feed72.chunk.css",
-    "main.js": "/react-pages-test/static/js/main.e9fe8b56.chunk.js",
-    "main.js.map": "/react-pages-test/static/js/main.e9fe8b56.chunk.js.map",
-    "runtime~main.js": "/react-pages-test/static/js/runtime~main.510e3748.js",
-    "runtime~main.js.map": "/react-pages-test/static/js/runtime~main.510e3748.js.map",
-    "static/js/2.03f6e6d7.chunk.js": "/react-pages-test/static/js/2.03f6e6d7.chunk.js",
-    "static/js/2.03f6e6d7.chunk.js.map": "/react-pages-test/static/js/2.03f6e6d7.chunk.js.map",
-    "index.html": "/react-pages-test/index.html",
-    "precache-manifest.17eef47b54d045de3e569a94b4af9459.js": "/react-pages-test/precache-manifest.17eef47b54d045de3e569a94b4af9459.js",
-    "service-worker.js": "/react-pages-test/service-worker.js",
-    "static/css/main.18feed72.chunk.css.map": "/react-pages-test/static/css/main.18feed72.chunk.css.map"
+    "main.css": "/king-of-pong/static/css/main.18feed72.chunk.css",
+    "main.js": "/king-of-pong/static/js/main.142d7c51.chunk.js",
+    "main.js.map": "/king-of-pong/static/js/main.142d7c51.chunk.js.map",
+    "runtime~main.js": "/king-of-pong/static/js/runtime~main.3d1bad30.js",
+    "runtime~main.js.map": "/king-of-pong/static/js/runtime~main.3d1bad30.js.map",
+    "static/js/2.38a5a747.chunk.js": "/king-of-pong/static/js/2.38a5a747.chunk.js",
+    "static/js/2.38a5a747.chunk.js.map": "/king-of-pong/static/js/2.38a5a747.chunk.js.map",
+    "index.html": "/king-of-pong/index.html",
+    "precache-manifest.bb74fe80b6f95d270b858755ec70c4d1.js": "/king-of-pong/precache-manifest.bb74fe80b6f95d270b858755ec70c4d1.js",
+    "service-worker.js": "/king-of-pong/service-worker.js",
+    "static/css/main.18feed72.chunk.css.map": "/king-of-pong/static/css/main.18feed72.chunk.css.map"
   }
 }
