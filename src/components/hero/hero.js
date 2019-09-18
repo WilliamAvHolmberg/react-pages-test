@@ -35,12 +35,14 @@ function Hero(){
           </div>
         </div>
       </div>
-      <p onClick={() => {
-        var elmnt = document.getElementById("social");
-        elmnt.scrollIntoView({
-          behavior: 'smooth'
-        });
-      }}className={'malins-knapp ' + (siteLoaded? 'show' : 'hidden' )}> Get To Know More </p>
+      <div className="read-more-button-container">
+        <p onClick={() => {
+          var elmnt = document.getElementById("social");
+          elmnt.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }}className={'read-more-button ' + (siteLoaded? 'show' : 'hidden' )}> Get To Know More </p>
+      </div>
   </div>
   )
 }
