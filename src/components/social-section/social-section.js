@@ -17,7 +17,7 @@ function SocialSection(){
           <p className="info-text">
             We will be serving Beer and Food and 
             for everybodies enjoyment there will be a Soundsystem as well as Spotlights, its going to be a party - to say the least. 
-            Don't forget the Ping Pong Tournament 
+            <br/> Don't forget the Pong Tournament! 
           </p>
 
           {/*<div className="info-row" style={{justifyContent: 'flex-end'}}>

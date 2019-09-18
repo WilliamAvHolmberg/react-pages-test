@@ -1,0 +1,11 @@
+
+.content {
+  overflow: hidden;
+  width: 550px;
+  height: 55px;
+  .hero-desc {
+    font-size: 45px;
+    text-align: left;
+    transition: all 2s ease-in-out;
+  }
+}
