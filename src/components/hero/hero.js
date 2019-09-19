@@ -16,14 +16,14 @@ function Hero(){
   }, []);
 
   return (
-    <div className="hero">
+    <div className="section hero">
       <div className="left-side">
         <h1 className={'hero-date ' + (siteLoaded? 'show' : 'hidden') }> 23 October</h1>
         <span className={'malin ' + (siteLoaded? 'show' : 'hidden')}></span>
       </div>
       <div className={'right-side'}>
         <div className={'right-side-content '+ (siteLoaded? 'show ' : 'hidden ') + (showForm? 'show-form ' : 'hide-form ')}>
-          <TextLoop array={array} interval={7500}/>
+          <TextLoop array={array} interval={3500}/>
           <div onClick={() => setShowForm(true)}className="show-interest-button button">
             <p>Sign up Now</p>
           </div>

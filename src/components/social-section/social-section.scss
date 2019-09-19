@@ -43,22 +43,47 @@
 
   }
   
-  
-  .malins-knapp {
-    border-bottom: solid 0.5px #3778c2;
-    font-weight: 300;
-    position: absolute;
-    bottom: -97vh;
-    left: 44vw;
-    transition: all 0.5s ease-in-out,opacity 5s ease-in-out;
+  .read-more-button-container {
+    top: calc(200vh - 45px);
+    .read-more-button {
+      border-bottom: solid 1px #3778c2;
+      color: #3778c2 !important;
+      opacity: 1 !important;
+    }
   }
-
-  .malins-knapp:hover {
-    cursor: pointer;
-    left: 43.5vw;
-    letter-spacing: 1px;
-  }
-  .malins-knapp.show {
-    opacity: 1;
-  }
+ 
 }
+
+
+
+@media (max-width: 868px){ 
+  .social-section {
+    .left-side {
+      .section-title {
+        font-size: 65px;
+      }
+      height: 30vh !important;
+    }
+
+    .right-side {
+      justify-content: flex-start;
+      height: 70vh !important;
+      .info-row {
+        flex-direction: column;
+        .info-label {
+          font-size: 28px;
+          text-align: center;
+        }
+        img {
+          margin: 0px auto !important;
+          width: 100px !important;
+        }
+      }
+      .info-text {
+        font-size: 18px;
+        width: 85vw; 
+        margin: 0px auto;
+      }
+    }
+  }
+} 

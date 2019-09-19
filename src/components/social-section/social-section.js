@@ -3,7 +3,7 @@ import './social-section.scss'
 
 function SocialSection(){
   return (
-    <div id="social" className="social-section">
+    <div id="social" className="section social-section">
         <div className="left-side">
           <p className="section-title"> Social Event </p>
           <span className={'malin '}></span>
@@ -29,12 +29,14 @@ function SocialSection(){
             <p className="info-label"> Warmup around the Table</p>
           </div>*/}
         </div>
+        <div className="read-more-button-container">
         <p onClick={() => {
-          var elmnt = document.getElementById("tournament");
+          var elmnt = document.getElementById("social");
           elmnt.scrollIntoView({
             behavior: 'smooth'
           });
-        }}className={'malins-knapp '}> About The Tournament </p>
+        }}className={'read-more-button '}> Get To Know More </p>
+      </div>
     </div>
   )
 }

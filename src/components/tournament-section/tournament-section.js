@@ -3,7 +3,7 @@ import './tournament-section.scss'
 
 function TournamentSection(){
   return (
-    <div id="tournament" className="tournament-section">
+    <div id="tournament" className="section tournament-section">
         <div className="left-side">
           <p className="section-title"> The Tournament </p>
           <span className={'malin '}></span>
