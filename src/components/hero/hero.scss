@@ -1,31 +1,31 @@
 .hero {
-  background:#3778c2;
+  background:#1067af;
   display: flex;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
 
-  h1 {
+  h1, h2 {
     color: #D6E9E5;
-    font-weight: 100;
-    font-size: 50px;
+    font-weight: 300;
+    font-size: 45px;
     text-align: right;
   }
-  .left-side {
-    h1 {
-      text-align: right;
-    }
 
-    .hero-date {
-      font-size: 95px;
+  h2 {
+    font-size: 30px;
+  }
+
+  .left-side {
+    .tagline {
       transition: all 1.5s ease-in-out;
     }
-  
-    .hero-date.show {
+
+    .tagline.show {
       margin-top: 0px;
     }
-  
-    .hero-date.hidden {
+
+    .tagline.hidden {
       margin-top: -105vh;
     }
 
@@ -47,10 +47,10 @@
     }
 
     .show-interest-button {
-      background-color: #C5BF8A;
+      background-color: #e30612;
       border-radius: 7.5px;
       color: white;
-      font-size: 30px;  
+      font-size: 30px;
       line-height: 60px;
       margin: 35px auto;
       transition: box-shadow .1s ease-in-out;
@@ -87,9 +87,9 @@
   .right-side-content.show-form {
     margin-top: -160px;
   }
-  
+
 }
-  
+
 
 
 .hero-desc.first {
@@ -103,12 +103,12 @@
 }
 
 
-@media (max-width: 868px){ 
+@media (max-width: 868px){
   .section.hero {
 
     .left-side {
 
-      .hero-date {
+      .tagline {
         font-size: 70px;
       }
     }
@@ -143,4 +143,4 @@
       }
     }
   }
-} 
+}

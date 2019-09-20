@@ -1,5 +1,3 @@
-
-
 .App {
   max-width: 100%;
   overflow: hidden;
@@ -19,7 +17,7 @@
   width: 45vw;
 
   .divider {
-    background-color: #C5BF8A;
+    background-color: #e30612;
     margin-left: 2.5vw;
     height: 0px;
     transition: height 1.5s ease-in-out;
@@ -59,7 +57,7 @@
 }
 
 
-@media (max-width: 868px){ 
+@media (max-width: 868px){
   .section {
     flex-direction: column !important;
     .left-side {
@@ -81,4 +79,4 @@
       width: 100vw !important;
     }
   }
-} 
+}
