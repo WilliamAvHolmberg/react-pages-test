@@ -1,14 +1,19 @@
 import React from 'react'
-import './sign-up-section.scss'
 import Form from '../form/form'
+import './sign-up-section.scss'
 
-function SignUpSection(){
+function SignUpSection () {
   return (
-    <div style={{backgroundColor: 'cyan'}}id="sign-up" className="section sign-up-section">
-        <h1> SIGN UP SECTION - PLACEHOLDER</h1>
-        <Form/>
+    <div id='sign-up' className='section sign-up-section'>
+      <div className='left-side'>
+        <h2 className='section-title'>Sign up</h2>
+        <span className={'divider'} />
+      </div>
+      <div className='right-side'>
+        <Form />
+      </div>
     </div>
   )
 }
 
-export default SignUpSection;
+export default SignUpSection

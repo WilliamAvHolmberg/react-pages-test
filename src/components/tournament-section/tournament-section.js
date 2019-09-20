@@ -1,33 +1,29 @@
 import React from 'react'
 import './tournament-section.scss'
 
-function TournamentSection(){
+function TournamentSection () {
   return (
-    <div id="tournament" className="section tournament-section">
-        <div className="left-side">
-          <p className="section-title"> The Tournament </p>
-          <span className={'divider '}></span>
+    <div id='tournament' className='section tournament-section'>
+      <div className='left-side'>
+        <p className='section-title'> The Tournament </p>
+        <span className={'divider '} />
+      </div>
+      <div className='right-side'>
+        <div className='info-row'>
+          <p className='info-label'>Played on 4 mini tables by Stiga</p>
         </div>
-        <div className="right-side">
-          <div className="info-row">
-            <p className="info-label"> <strong>- Played on 4 Tables</strong></p>
-            <img src="" style={{height: '125px', float: 'right'}}/>
-          </div>
-          <div className="info-row">
-            <img src="" style={{height: '150px'}}/>
-            <p className="info-label"> <strong>- Professional match balls</strong></p>
-          </div>
-          <div className="info-row">
-            <img src="" style={{height: '150px'}}/>
-            <p className="info-label"> <strong>- Courts with judges tables and scoreboards</strong></p>
-          </div>
-          <div className="info-row">
-            <img src="" style={{height: '150px'}}/>
-            <p className="info-label"> <strong>- Prices</strong></p>
-          </div>
+        <div className='info-row'>
+          <p className='info-label'>Professional match balls</p>
         </div>
+        <div className='info-row'>
+          <p className='info-label'>Courts with judges tables and scoreboards</p>
+        </div>
+        <div className='info-row'>
+          <p className='info-label'>Winner, winner, ping pong dinner</p>
+        </div>
+      </div>
     </div>
   )
 }
 
-export default TournamentSection;
+export default TournamentSection
