@@ -18,7 +18,7 @@
 
     .hero-date {
       font-size: 95px;
-      transition: all s ease-in-out;
+      transition: all 1.5s ease-in-out;
     }
   
     .hero-date.show {
@@ -29,11 +29,11 @@
       margin-top: -105vh;
     }
 
-    .malin.show {
+    .divider.show {
       height: 320px;
 
     }
-    .malin.hidden {
+    .divider.hidden {
       height: 0px;
     }
   }
@@ -43,7 +43,7 @@
     width: 550px;
     .right-side-content {
       margin-top: calc(50vh - 55px);
-      transition: all 1.9s ease-in-out;
+      transition: all 1.5s ease-in-out;
     }
 
     .show-interest-button {
@@ -67,7 +67,7 @@
       display: flex;
       margin-top: calc(50vh - 90px);
       width: 400px;
-      transition: all 1.9s ease-in-out;
+      transition: all 1.5s ease-in-out;
       .close {
         border-radius: 5px;
         color: white;

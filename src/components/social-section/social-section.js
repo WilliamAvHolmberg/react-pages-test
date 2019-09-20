@@ -5,19 +5,17 @@ function SocialSection(){
   return (
     <div id="social" className="section social-section">
         <div className="left-side">
-          <p className="section-title"> Social Event </p>
-          <span className={'malin '}></span>
+          <p className="section-title"> What? </p>
+          <span className={'divider '}></span>
         </div>
         <div className="right-side">
 
           <div className="info-row">
-            <p className="info-label"> Welcome to our Social Event! </p>
+            <p className="info-label"> Social Gathering & <br/>Mini Table Tennis Tournament </p>
             <img src="https://blog.joypixels.com/content/images/2019/06/clinking_beer_mugs_1024.gif" style={{height: '150px', marginLeft:'20px'}}/>
           </div>
           <p className="info-text">
-            We will be serving Beer and Food and 
-            for everybodies enjoyment there will be a Soundsystem as well as Spotlights, its going to be a party - to say the least. 
-            <br/> Don't forget the Pong Tournament! 
+            Enjoy a night of <strong>music</strong>, <strong>food</strong> and <strong>drinks</strong> while meeting new people and <strong>compete</strong> for the grand prize in our first ever tournament!
           </p>
 
           {/*<div className="info-row" style={{justifyContent: 'flex-end'}}>

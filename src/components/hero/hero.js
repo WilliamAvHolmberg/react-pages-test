@@ -7,7 +7,7 @@ function Hero(){
 
   const [siteLoaded, setLoaded] = useState(false);
   const [showForm, setShowForm] = useState(false);
-  const [array, setArray] = useState(["First ever King of Pong event", "Beer & Food will be Served" , "Save the date!"]);
+  const [array, setArray] = useState(["The first ever King of Pong", "Music, Food & Drinks", "asdasd"]);
 
   
 
@@ -19,7 +19,7 @@ function Hero(){
     <div className="section hero">
       <div className="left-side">
         <h1 className={'hero-date ' + (siteLoaded? 'show' : 'hidden') }> 23 October</h1>
-        <span className={'malin ' + (siteLoaded? 'show' : 'hidden')}></span>
+        <span className={'divider ' + (siteLoaded? 'show' : 'hidden')}></span>
       </div>
       <div className={'right-side'}>
         <div className={'right-side-content '+ (siteLoaded? 'show ' : 'hidden ') + (showForm? 'show-form ' : 'hide-form ')}>
