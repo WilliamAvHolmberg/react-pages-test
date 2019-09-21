@@ -10,16 +10,16 @@ function TournamentSection () {
       </div>
       <div className='right-side'>
         <div className='info-row'>
-          <p className='info-label'>Played on 4 mini tables by Stiga</p>
+          <p className='info-text'>Played on 4 mini tables by Stiga</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Professional match balls</p>
+          <p className='info-text'>Professional match balls</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Courts with judges tables and scoreboards</p>
+          <p className='info-text'>Courts with judges tables and scoreboards</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Winner, winner, ping pong dinner</p>
+          <p className='info-text'>Winner, winner, ping pong dinner</p>
         </div>
       </div>
     </div>

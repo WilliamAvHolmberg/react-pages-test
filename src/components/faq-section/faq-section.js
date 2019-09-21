@@ -10,22 +10,22 @@ function FaqSection () {
       </div>
       <div className='right-side'>
         <div className='info-row'>
-          <p className='info-label'>Played on 4 mini tables by Stiga</p>
+          <p className='info-text'>Played on 4 mini tables by Stiga</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Professional match balls</p>
+          <p className='info-text'>Professional match balls</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Courts with judges tables and scoreboards</p>
+          <p className='info-text'>Courts with judges tables and scoreboards</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Winner, winner, ping pong dinner</p>
+          <p className='info-text'>Winner, winner, ping pong dinner</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>ITTF rules modified for net height</p>
+          <p className='info-text'>ITTF rules modified for net height</p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Best of 3 in group, Best of 5 in knockouts</p>
+          <p className='info-text'>Best of 3 in group, Best of 5 in knockouts</p>
         </div>
       </div>
     </div>

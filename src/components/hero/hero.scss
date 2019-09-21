@@ -87,10 +87,7 @@
   .right-side-content.show-form {
     margin-top: -160px;
   }
-
 }
-
-
 
 .hero-desc.first {
   //animation: example 5s infinite;
@@ -102,14 +99,20 @@
   100% { margin-top: 0px; }
 }
 
-
 @media (max-width: 868px){
   .section.hero {
-
+    .tagline {
+      padding: 0 0 1em 0;
+    }
     .left-side {
-
-      .tagline {
-        font-size: 70px;
+      h1, h2 {
+        color: #D6E9E5;
+        font-weight: 300;
+        font-size: 35px;
+        text-align: center;
+      }
+      h2 {
+        font-size: 20px;
       }
     }
 

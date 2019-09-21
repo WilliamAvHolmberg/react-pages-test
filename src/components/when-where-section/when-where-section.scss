@@ -12,12 +12,6 @@
   }
 
   .left-side {
-    .section-title {
-      font-size: 95px;
-      text-align: right;
-      margin-bottom: 50px;
-    }
-
     .divider {
       background-color: white;
       height: 500px;
@@ -27,14 +21,11 @@
     .info-row {
       display: flex;
       flex-direction: row;
-      margin: 3em 0px 0px 0px;
-      height: 4em;
 
       .info-label {
-          align-self: center;
-          margin: 10px;
-          font-weight: 300;
+        align-self: center;
+        font-weight: 300;
       }
-   }
+    }
   }
 }

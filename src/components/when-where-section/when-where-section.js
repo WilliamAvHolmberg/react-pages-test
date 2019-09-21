@@ -10,16 +10,16 @@ function WhenWhereSection () {
       </div>
       <div className='right-side'>
         <div className='info-row'>
-          <p className='info-label'>Time: <strong>18:00</strong></p>
+          <p className='info-text'>Date: <strong>23 October</strong></p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Date: <strong>23 October</strong></p>
+          <p className='info-text'>Time: <strong>18:00</strong></p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Address: <strong>Första Långgatan 22, Gothenburg</strong></p>
+          <p className='info-text'>Address: <strong>Första Långgatan 22, Gothenburg</strong></p>
         </div>
         <div className='info-row'>
-          <p className='info-label'>Place: <strong>The office of Dotnet Mentor on the 7th floor</strong></p>
+          <p className='info-text'>Place: <strong>The office of Dotnet Mentor on the 7th floor</strong></p>
         </div>
       </div>
     </div>
