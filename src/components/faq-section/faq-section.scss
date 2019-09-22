@@ -6,6 +6,7 @@
   overflow: visible;
   background: white;
   color: #333;
+  padding: 80px 0 40px 0;
 
   strong {
     color: white;
@@ -13,6 +14,7 @@
   }
 
   .left-side {
+    align-items: flex-start;
     .divider {
       background-color: #333;
       height: 500px;
@@ -37,6 +39,10 @@
 
 @media (max-width: 868px){
   .faq-section {
+    padding: 0;
+    .left-side {
+      align-items: center;
+    }
     .right-side {
       height: auto !important;
       .info-row {
