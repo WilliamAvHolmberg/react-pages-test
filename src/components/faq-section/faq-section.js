@@ -63,7 +63,7 @@ function FaqSection () {
         </div>
         <div className='info-row'>
           <h3 className='info-label'>Where can I learn about the rules?</h3>
-          <p className='info-text'>We use the rules of SBTF with adjustments for the size and net height of a mini table. <a href='http://www.svenskbordtennis.com/globalassets/svenska-bordtennisforbundet/dokument/tavlingsdokument/2-spelregler.pdf' target='_blank'>You'll find the rules here.</a></p>
+          <p className='info-text'>We use the rules of <a href='http://www.svenskbordtennis.com/' target='_blank'>SBTF</a> with adjustments for the size and net height of a mini table. <a href='http://www.svenskbordtennis.com/globalassets/svenska-bordtennisforbundet/dokument/tavlingsdokument/2-spelregler.pdf' target='_blank'>You'll find the rules here.</a></p>
         </div>
         <div className='info-row'>
           <h3 className='info-label'>Is coaching allowed?</h3>
