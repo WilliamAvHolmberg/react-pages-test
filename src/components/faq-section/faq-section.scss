@@ -24,9 +24,12 @@
         font-weight: 500;
         font-size: 20px;
       }
-      .info-text {
+      .info-text, a {
         font-weight: 300;
         font-size: 20px;
+      }
+      a {
+        color: #1067af;
       }
     }
   }
