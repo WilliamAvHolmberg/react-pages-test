@@ -1,8 +1,9 @@
 .faq-section {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: auto;
   width: 100vw;
+  overflow: visible;
   background: white;
   color: #333;
 
@@ -19,12 +20,33 @@
   }
   .right-side {
     .info-row {
-      display: flex;
-      flex-direction: row;
-
       .info-label {
-        align-self: center;
+        font-weight: 500;
+        font-size: 20px;
+      }
+      .info-text {
         font-weight: 300;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 868px){
+  .faq-section {
+    .right-side {
+      height: auto !important;
+      .info-row {
+        margin: 15px auto 30px auto;
+        .info-label {
+          font-size: 20px !important;
+          text-align: center;
+        }
+        .info-text {
+          font-size: 18px !important;
+          text-align: center;
+          margin-top: 10px;
+        }
       }
     }
   }

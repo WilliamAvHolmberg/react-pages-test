@@ -10,7 +10,7 @@ function WhenWhereSection () {
       </div>
       <div className='right-side'>
         <div className='info-row'>
-          <p className='info-text'>Date: <strong>23 October</strong></p>
+          <p className='info-text'>Date: <strong>23 October, 2019</strong></p>
         </div>
         <div className='info-row'>
           <p className='info-text'>Time: <strong>18:00</strong></p>
@@ -21,6 +21,14 @@ function WhenWhereSection () {
         <div className='info-row'>
           <p className='info-text'>Place: <strong>The office of Dotnet Mentor on the 7th floor</strong></p>
         </div>
+      </div>
+      <div className='read-more-button-container'>
+        <p onClick={() => {
+          var elmnt = document.getElementById('tournament')
+          elmnt.scrollIntoView({
+            behavior: 'smooth'
+          })
+        }}className={'read-more-button '}>Get To Know More</p>
       </div>
     </div>
   )

@@ -11,7 +11,6 @@ function SocialSection () {
       <div className='right-side'>
         <div className='info-row'>
           <h3 className='info-label'>Social Gathering & <br />Mini Table Tennis Tournament</h3>
-          <img src='https://blog.joypixels.com/content/images/2019/06/clinking_beer_mugs_1024.gif' style={{ height: '150px', marginLeft: '20px' }} />
         </div>
         <div className='info-row'>
           <p className='info-text'>
@@ -21,7 +20,7 @@ function SocialSection () {
       </div>
       <div className='read-more-button-container'>
         <p onClick={() => {
-          var elmnt = document.getElementById('social')
+          var elmnt = document.getElementById('when-where')
           elmnt.scrollIntoView({
             behavior: 'smooth'
           })
@@ -30,5 +29,6 @@ function SocialSection () {
     </div>
   )
 }
+// <img src='https://blog.joypixels.com/content/images/2019/06/clinking_beer_mugs_1024.gif' style={{ height: '150px', marginLeft: '20px' }} />
 
 export default SocialSection
