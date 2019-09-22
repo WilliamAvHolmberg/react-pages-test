@@ -14,7 +14,7 @@ function SocialSection () {
         </div>
         <div className='info-row'>
           <p className='info-text'>
-              Enjoy a night of <strong>music</strong>, <strong>food</strong> and <strong>drinks</strong> while meeting new people and <strong>compete</strong> for the grand prize in our first ever tournament!
+              Enjoy a night of <strong>music</strong>, <strong>food</strong> and <strong>drinks</strong> while meeting new people and <strong>competing</strong> for the grand prize in our first ever tournament!
           </p>
         </div>
       </div>
