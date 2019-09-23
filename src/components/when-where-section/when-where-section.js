@@ -1,5 +1,6 @@
 import React from 'react'
 import './when-where-section.scss'
+import ReadMoreButton from '../read-more-button/read-more-button'
 
 function WhenWhereSection () {
   return (
@@ -22,14 +23,10 @@ function WhenWhereSection () {
           <p className='info-text'>Place: <strong>The office of Dotnet Mentor on the 7th floor</strong></p>
         </div>
       </div>
-      <div className='read-more-button-container'>
-        <p onClick={() => {
-          var elmnt = document.getElementById('tournament')
-          elmnt.scrollIntoView({
-            behavior: 'smooth'
-          })
-        }}className={'read-more-button '}>Get To Know More</p>
-      </div>
+      <ReadMoreButton 
+        targetElement={'tournament'}
+        show={true}
+        top={300}/>
     </div>
   )
 }

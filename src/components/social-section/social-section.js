@@ -1,5 +1,6 @@
 import React from 'react'
 import './social-section.scss'
+import ReadMoreButton from '../read-more-button/read-more-button'
 
 function SocialSection () {
   return (
@@ -18,14 +19,10 @@ function SocialSection () {
           </p>
         </div>
       </div>
-      <div className='read-more-button-container'>
-        <p onClick={() => {
-          var elmnt = document.getElementById('when-where')
-          elmnt.scrollIntoView({
-            behavior: 'smooth'
-          })
-        }}className={'read-more-button '}>Get To Know More</p>
-      </div>
+      <ReadMoreButton 
+        targetElement={'when-where'}
+        show={true}
+        top={200}/>
     </div>
   )
 }

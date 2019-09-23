@@ -52,30 +52,8 @@
   }
 }
 
-.read-more-button-container {
-  position: absolute;
-  top: calc(100vh - 45px);
-  width: 99vw;
 
-  .read-more-button {
-    border-bottom: solid 1px white;
-    color: white;
-    opacity: 1;
-    width: 215px;
-    margin: 0px auto;
-    text-align: center;
-    transition: all 0.5s ease-in-out,opacity 5s ease-in-out;
-  }
-}
 
-.read-more-button:hover {
-  cursor: pointer;
-  left: 43.5vw;
-  letter-spacing: 1px;
-}
-.read-more-button.show {
-  opacity: 1;
-}
 
 @media (max-width: 868px){
   .section {
@@ -99,13 +77,6 @@
       overflow: hidden !important;
       height: 60vh !important;
       width: 100vw !important;
-    }
-
-    .read-more-button-container {
-      position: static;
-      top: unset;
-      width: auto;
-      margin-bottom: 15px;
     }
   }
 }
