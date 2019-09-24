@@ -45,6 +45,13 @@
     }
     .right-side {
       height: auto !important;
+      .accordion {
+        max-width: 90vw !important;
+        margin: 0px auto;
+        .content {
+          max-width: 100% !important;
+        }
+      }
       .info-row {
         margin: 15px auto 30px auto;
         .info-label {
