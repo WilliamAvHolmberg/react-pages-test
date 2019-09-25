@@ -1,6 +1,7 @@
+@import 'variables.scss';
 .social-section {
   background: white;
-  color: #1067af;
+  color: $primary-blue;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -8,7 +9,7 @@
   width: 100vw;
 
   strong {
-    color: #e30612;
+    color: $primary-red;
     font-weight: 500;
   }
 
@@ -18,7 +19,7 @@
     justify-content: flex-end;
 
     .divider {
-      background-color: #1067af;
+      background-color: $primary-blue;
       height: 500px;
     }
   }
@@ -31,7 +32,7 @@
       flex-direction: row;
 
       .info-label {
-        color: #1067af;
+        color: $primary-blue;
         align-self: center;
         font-weight: 400;
         font-size: 40px;
@@ -48,8 +49,8 @@
   .read-more-button-container {
     top: calc(200vh - 45px);
     .read-more-button {
-      border-bottom: solid 1px #1067af;
-      color: #1067af !important;
+      border-bottom: solid 1px $primary-blue;
+      color: $primary-blue !important;
       opacity: 1 !important;
     }
   }

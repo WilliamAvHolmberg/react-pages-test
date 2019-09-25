@@ -1,5 +1,6 @@
+@import 'variables.scss';
 .hero {
-  background:#1067af;
+  background: $primary-blue;
   display: flex;
   overflow: hidden;
   height: 100vh;
@@ -44,10 +45,11 @@
     .right-side-content {
       margin-top: calc(50vh - 55px);
       transition: all 1.5s ease-in-out;
+      width: 550px;
     }
 
     .show-interest-button {
-      background-color: #e30612;
+      background-color: $primary-red;
       border-radius: 7.5px;
       color: white;
       font-size: 30px;
@@ -89,15 +91,6 @@
   }
 }
 
-.hero-desc.first {
-  //animation: example 5s infinite;
-}
-/* Standard syntax */
-@keyframes example {
-  0%   { margin-top: -90px; }
-  50%  { margin-top: 0px; }
-  100% { margin-top: 0px; }
-}
 
 @media (max-width: 868px){
   .section.hero {
@@ -117,9 +110,10 @@
     }
 
     .right-side {
+      padding-left: 0px;
       .right-side-content {
         margin-top: 0px;
-
+        width: 100vw;
         .content {
           margin-top: 10px;
           width: 100vw;

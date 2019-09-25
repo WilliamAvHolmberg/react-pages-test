@@ -1,3 +1,4 @@
+@import 'variables.scss';
 .sign-up-section {
   display: flex;
   flex-direction: row;
@@ -18,7 +19,7 @@
 
     form {
       button {
-        background-color: #e30612;
+        background-color: $primary-red;
       }
     }
   }

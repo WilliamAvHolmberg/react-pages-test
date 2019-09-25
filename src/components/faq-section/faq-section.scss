@@ -1,3 +1,4 @@
+@import 'variables.scss';
 .faq-section {
   display: flex;
   flex-direction: row;
@@ -31,7 +32,7 @@
         font-size: 20px;
       }
       a {
-        color: #1067af;
+        color: $primary-blue;
       }
     }
   }

@@ -1,9 +1,10 @@
+@import 'variables.scss';
 .tournament-section {
   display: flex;
   flex-direction: row;
   height: 100vh;
   width: 100vw;
-  background: #1067af;
+  background: $primary-blue;
   color: white;
 
   strong {
