@@ -4,7 +4,8 @@
   flex-direction: row;
   height: 100vh;
   width: 100vw;
-  background: $primary-red;
+  background-color: $primary-red;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 80px, rgba(160,2,2,.5) 80px, rgba(160,2,2,.5) 160px);
   color: white;
 
   strong {

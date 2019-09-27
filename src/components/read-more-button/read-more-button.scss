@@ -1,7 +1,8 @@
 .read-more-button-container {
     position: absolute;
     width: 99vw;
-  
+    cursor: pointer;
+
     .read-more-button {
       border-bottom: solid 1px white;
       color: white;
@@ -9,18 +10,12 @@
       width: 240px;
       margin: 0px auto;
       text-align: center;
-      transition: all 0.5s ease-in-out,opacity 5s ease-in-out;
+      transition: left 0.5s ease-in-out, letter-spacing 0.5s ease-in-out;
+      letter-spacing: 0px;
     }
 
     .read-more-button:hover {
-      cursor: pointer;
       left: 43.5vw;
       letter-spacing: 1px;
     }
-
-    .read-more-button.hidden {
-      opacity: 0;
-    }
   }
-  
-

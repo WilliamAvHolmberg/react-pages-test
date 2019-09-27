@@ -32,7 +32,7 @@
         font-size: 18px;
       }
       a {
-        color: $primary-blue;
+        color: $primary-red;
       }
     }
   }
@@ -40,12 +40,15 @@
 
 @media (max-width: 868px){
   .faq-section {
-    padding: 0;
+    padding: 40px 0;
     .left-side {
+      height: auto !important;
       align-items: center;
+      margin-bottom: 40px;
     }
     .right-side {
       height: auto !important;
+      padding: 5px 0;
       .accordion {
         max-width: 90vw !important;
         margin: 0px auto;

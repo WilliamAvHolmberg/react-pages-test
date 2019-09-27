@@ -23,10 +23,10 @@ function TournamentSection () {
           <p className='info-text'>Prizes (TODO: ...)</p>
         </div>
       </div>
-      <ReadMoreButton 
+      <ReadMoreButton
         targetElement={'faq'}
-        show={true}
-        top={400}/>
+        show
+        top={400} />
     </div>
   )
 }

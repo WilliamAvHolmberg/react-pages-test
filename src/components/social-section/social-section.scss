@@ -1,7 +1,9 @@
 @import 'variables.scss';
 .social-section {
-  background: white;
-  color: $primary-blue;
+  background-image: url(/img/samsonov.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.85);
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -19,7 +21,7 @@
     justify-content: flex-end;
 
     .divider {
-      background-color: $primary-blue;
+      background-color: #333;
       height: 500px;
     }
   }
@@ -32,7 +34,7 @@
       flex-direction: row;
 
       .info-label {
-        color: $primary-blue;
+        color: white;
         align-self: center;
         font-weight: 400;
         font-size: 40px;
@@ -49,8 +51,8 @@
   .read-more-button-container {
     top: calc(200vh - 45px);
     .read-more-button {
-      border-bottom: solid 1px $primary-blue;
-      color: $primary-blue !important;
+      border-bottom: solid 1px white;
+      color: white !important;
       opacity: 1 !important;
     }
   }
