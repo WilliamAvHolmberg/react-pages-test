@@ -14,7 +14,7 @@ function TournamentSection () {
           <p className='info-text'>Played on 4 mini tables by Stiga</p>
         </div>
         <div className='info-row'>
-          <p className='info-text'>Professional match balls</p>
+          <p className='info-text'>Match balls used by professionals</p>
         </div>
         <div className='info-row'>
           <p className='info-text'>Courts with judges tables and scoreboards</p>

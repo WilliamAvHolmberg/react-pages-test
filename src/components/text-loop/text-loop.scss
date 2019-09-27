@@ -1,5 +1,4 @@
-
-.content {
+.text-loop.content {
   overflow: hidden;
   width: 550px;
   height: 55px;
@@ -13,8 +12,8 @@
 
 
 
-@media (max-width: 868px){ 
-  .content {
+@media (max-width: 868px){
+  .text-loop.content {
     .desc {
       font-size: 30px;
     }
@@ -22,7 +21,7 @@
 }
 
 @media (max-width: 350px) {
-  .content {
+  .text-loop.content {
     .desc {
       font-size: 26px;
     }

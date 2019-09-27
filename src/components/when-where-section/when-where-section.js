@@ -23,10 +23,10 @@ function WhenWhereSection () {
           <p className='info-text'>Place: <strong>The office of Dotnet Mentor on the 7th floor</strong></p>
         </div>
       </div>
-      <ReadMoreButton 
+      <ReadMoreButton
         targetElement={'tournament'}
-        show={true}
-        top={300}/>
+        show
+        top={300} />
     </div>
   )
 }

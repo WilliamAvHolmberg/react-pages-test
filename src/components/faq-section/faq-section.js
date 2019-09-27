@@ -34,20 +34,20 @@ function FaqSection () {
       answer: 'Anything but white is OK. However, we suggest dressing for comfort in your finest sporting outfit.'
     },
     {
+      question: 'What match balls will be used?',
+      answer: 'Stiga Perform 40+ (white)'
+    },
+    {
       question: 'Where can I learn about the rules?',
       answer: (<span>We use the rules of <a href='http://www.svenskbordtennis.com/' target='_blank'>SBTF</a>  with adjustments for the size and net height of a mini table. <a href='http://www.svenskbordtennis.com/globalassets/svenska-bordtennisforbundet/dokument/tavlingsdokument/2-spelregler.pdf' target='_blank'>You'll find the rules here.</a></span>)
     },
     {
-      question: 'What matchballs will be used?',
-      answer: 'Stiga Perform 40+ (white)'
-    },
-    {
-      question: 'What tables will we be playing on?',
+      question: 'What kind of tables will we be playing on?',
       answer: 'TBA'
     },
     {
       question: 'What format is used for the tournament?',
-      answer: 'Our goal is to play in groups of 4 with 2 players advancing to a knockout stage.'
+      answer: 'Our goal is to play in groups of 4 with 2 players advancing to a knockout stage. This might change depnding on the number of entries.'
     },
     {
       question: "Who's judging the competition?",
@@ -71,11 +71,15 @@ function FaqSection () {
     },
     {
       question: 'Are you using any tournament software?',
-      answer: 'Yes, Konkuri will be used to draw groups and to generate the knockout tree.'
+      answer: (<span>Yes, <a href='http://www.konkuri.com/' target='_blank'>Konkuri</a> will be used to draw groups and to generate the knockout tree.</span>)
+    },
+    {
+      question: 'Who is Dotnet Mentor?',
+      answer: (<span>We are an IT consulting and product development company based in Gothenburg. Read more about us at <a href='http://dotnetmentor.se/' target='_blank'>dotnetmentor.se</a>.</span>)
     },
     {
       question: 'What if I need to cancel?',
-      answer: 'Please let us know if you\'re unable to attend. This will free up spots for others to attend and will help keep food waste to a minimum.'
+      answer: (<span><strong>Please let us know as soon as possible if you're unable to attend.</strong> This will free up spots for others to attend and will help keep food waste to a minimum. Send an email to <a href='mailto:info@dotnetmentor.se?subject=King Of Pong - Cancellation'>info@dotnetmentor.se</a> or drop us a text at <i>070-2969650</i>.</span>)
     }
   ]
   return (
