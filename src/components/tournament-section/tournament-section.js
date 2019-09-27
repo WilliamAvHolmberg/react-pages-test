@@ -20,7 +20,7 @@ function TournamentSection () {
           <p className='info-text'>Courts with judges tables and scoreboards</p>
         </div>
         <div className='info-row'>
-          <p className='info-text'>Prizes (TODO: ...)</p>
+          <p className='info-text'><strong>Be the first ever King of Pong</strong></p>
         </div>
       </div>
       <ReadMoreButton
