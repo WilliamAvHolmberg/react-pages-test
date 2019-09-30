@@ -15,7 +15,7 @@ input, textarea {
   border: none;
   border-radius: 7.5px;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 0;
   padding: 20px;
   width: 400px;
@@ -38,23 +38,26 @@ input, textarea {
     .radio-container {
         display: flex;
         flex-direction: row;
-        h2 {
-            font-size: 22px;
-        }
+
         .radio-buttons {
             display: flex;
             flex-direction: row;
+            p {
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+            }
             .radio-button {
                 display: flex;
-                flex-direction: row;
                 align-items: center;
                 flex-wrap: wrap-reverse;
                 input {
                     width: 25px;
                     margin-left: 15px;
                 }
-                p {
-                    font-size: 14px;
+                label {
+                    font-size: 18px;
                 }
             }
         }
@@ -75,9 +78,7 @@ input, textarea {
     }
     textarea {
         width: 400px;
-        height: 60px;
-
-        font-size: 14px;
+        height: 72px;
     }
 }
 
@@ -101,23 +102,17 @@ input, textarea {
     .radio-wrapper {
         width: 80vw;
         .radio-container {
-            flex-direction: column;
-            h2 {
-                font-size: 22px;
-            }
             .radio-buttons {
-                display: flex;
-                flex-direction: row;
+                margin-bottom: 12px;
+                p {
+                  font-size: 12px;
+                  font-weight: 500;
+                }
                 .radio-button {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap-reverse;
                     input {
-                        width: 25px;
-                        margin-left: 0px;
+                        margin: 0 0 0 12px;
                     }
-                    p {
-                        margin-right: 15px;
+                    label {
                         font-size: 12px;
                     }
                 }

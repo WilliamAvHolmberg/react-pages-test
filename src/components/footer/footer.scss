@@ -1,8 +1,12 @@
 @import 'variables.scss';
 .footer-content {
-    height: 60px;
-    width: 100vw;
-    background-color: #333;
+    background-color: #222;
+    padding: 40px 20px;
+
+    h2 {
+      color: white;
+    }
+
     .info-list {
         height: 100%;
         display: flex;
@@ -10,14 +14,20 @@
         flex-direction: row;
         justify-content: center;
         margin: 0;
+        padding: 0;
         list-style: none;
         li {
-            margin: auto 5vw;
+            margin: 0 5vw;
             color: white;
             font-size: 16px;
+            h2 {
+              font-size: 16px;
+            }
+
             a {
                 color: $primary-red;
                 font-weight: 300;
+                font-size: 16px;
             }
         }
     }
@@ -26,18 +36,20 @@
 @media (max-width: 878px) {
     .footer-content {
         font-size: 12px;
-        height: 80px;
-        width: 100vw;
         background-color: #333;
+        text-align: center;
+
         .info-list {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
+          display: block;
             li {
-                font-size: 14px;
+                margin: 0;
+                padding: 5px 0;
+                display: block;
                 a {
-                    font-size: 14px;
+                    font-size: 16px;
+                }
+                h2 {
+                  font-size: 25px;
                 }
             }
         }
