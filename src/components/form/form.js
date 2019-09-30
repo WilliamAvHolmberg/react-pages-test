@@ -11,14 +11,9 @@ function SignupForm () {
 
   return (
     <form action='https://formcarry.com/s/Ch1BYV2BzLV' method='POST' acceptCharset='UTF-8' >
-
       <input onChange={e => setName(e.target.value)} type='text' name='name' placeholder='Name' />
       <input onChange={e => setEmail(e.target.value)} type='email' name='email' placeholder='Email' />
       <input onChange={e => setPhone(e.target.value)} type='text' name='phone' placeholder='Phone' />
-      {<div className='food-pref'>
-        <p>Questions? Food preferences? Leave us a message!</p>
-        <textarea rows={3} cols={40} name='message' placeholder='Gluten, vegetarian etc..' />
-      </div>}
       <div className='radio-wrapper'>
         <div className='radio-container'>
           <div className='radio-buttons'>
@@ -46,9 +41,12 @@ function SignupForm () {
           </div>
         </div>
       </div>
+      <div className='food-pref'>
+        <p>Questions? Food preferences? Leave us a message!</p>
+        <textarea rows='3' cols='40' name='message' />
+      </div>
       <input onChange={e => setName(e.target.value)} type='hidden' name='_gotcha' />
-
-      <button disabled={!isEnabled} className={(isEnabled ? 'button enabled' : 'disabled')}> Submit </button>
+      <button disabled={!isEnabled} className={(isEnabled ? 'button enabled' : 'disabled')}>Sign me up</button>
     </form>
   )
 }
