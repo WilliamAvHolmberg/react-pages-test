@@ -1,0 +1,19 @@
+.content {
+  height: 60px;
+  width: 100vw;
+  background-color: #333;
+}
+.content .info-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+}
+.content .info-list li {
+  margin: auto 5vw;
+  color: white;
+  font-size: 16px;
+}

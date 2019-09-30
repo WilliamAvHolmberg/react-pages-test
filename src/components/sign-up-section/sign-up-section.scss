@@ -20,3 +20,40 @@
     max-width: 500px;
   }
 }
+
+
+@media (max-width: 868px){
+  .sign-up-section {
+    flex-direction: column !important;
+    .left-side {
+      flex-direction: column !important;
+      width: 100vw !important;
+      height: 40vh !important;
+      .divider {
+        height: 2px !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        max-width: 85vw;
+      }
+    }
+
+    .right-side {
+      align-self: center !important;
+      flex-direction: column !important;
+      overflow: hidden !important;
+      height: 60vh !important;
+      width: 100vw !important;
+    }
+  }
+
+  .sign-up-section {
+    .left-side {
+      height: 20vh !important;
+    }
+
+    .right-side {
+      height: 80vh !important;
+    }
+  }
+}

@@ -34,17 +34,18 @@
   }
 
   .divider {
-    align-self: center;
     width: 0px;
     height: 2px;
-    margin: 60px 0;
+    margin: 60px auto;
     background-color: white;
-    transition: width 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
   }
   .divider.show {
     width: 100%;
   }
-
+  .divider.hidden {
+    margin: 700px auto;
+  }
   .roller {
     transition: all 1.5s ease-in-out;
     max-width: 600px;

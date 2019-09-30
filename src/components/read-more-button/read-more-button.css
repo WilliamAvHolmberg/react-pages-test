@@ -1,0 +1,21 @@
+.read-more-button-container {
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+}
+.read-more-button-container .read-more-button {
+  border-bottom: solid 1px white;
+  width: 240px;
+  margin: 0px auto;
+  background-color: transparent;
+  color: white;
+  border-radius: 0;
+  cursor: pointer;
+  transition: letter-spacing 0.5s ease-in-out;
+}
+.read-more-button-container .read-more-button:hover {
+  letter-spacing: 1px;
+}
+.read-more-button-container .read-more-button:focus {
+  outline: none;
+}
