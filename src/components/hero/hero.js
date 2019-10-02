@@ -14,11 +14,7 @@ function Hero () {
   return (
     <div className='section hero'>
       <div className='main'>
-        <h1 className='logo'>KING OF PONG</h1>
-        <div className={'tagline ' + (siteLoaded ? 'show' : 'hidden')}>
-          <h2>MINI TABLE TENNIS<br />CHAMPIONSHIP</h2>
-          <h3>FOR THE IT CROWD</h3>
-        </div>
+        <h1 className='logo'><img src='/img/logo-white.png' alt='King Of Pong - Mini Table Championship for the IT crowd' /></h1>
         <div className={'divider ' + (siteLoaded ? 'show' : 'hidden')} />
         <div className={'roller ' + (siteLoaded ? 'show ' : 'hidden ')}>
           <TextLoop array={array} interval={3500} />

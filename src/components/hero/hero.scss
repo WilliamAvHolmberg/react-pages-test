@@ -22,7 +22,11 @@
   }
 
   h1.logo {
-    margin-bottom: 40px;
+    margin: 40px 0;
+  }
+
+  h1.logo img {
+    max-width: 400px;
   }
 
   h2 {
@@ -82,17 +86,29 @@
   .section.hero {
     padding: 20px;
 
+    h1.logo {
+      margin: 20px 0;
+    }
+
     h1.logo, h2 {
       color: #D6E9E5;
       font-weight: 300;
       font-size: 35px;
       text-align: center;
     }
+    h1.logo img {
+      max-width: 70vw;
+    }
+
     h2 {
       font-size: 20px;
     }
     h3 {
       font-size: 14px;
+    }
+
+    .divider.show {
+      margin: 20px auto;
     }
   }
 }
