@@ -11,9 +11,9 @@ function SignupForm () {
   const isEnabled = email.length > 0 && name.length > 0 && phone.length > 0
 
   return (
-    <form action='https://formcarry.com/s/Ch1BYV2BzLV' method='POST' acceptCharset='UTF-8' >
+    <form action='https://formspree.io/xrngbeyx' method='POST' acceptCharset='UTF-8' >
       <input onChange={e => setName(e.target.value)} type='text' name='name' placeholder='Name' />
-      <input onChange={e => setEmail(e.target.value)} type='email' name='email' placeholder='Email' />
+      <input onChange={e => setEmail(e.target.value)} type='email' name='_replyto' placeholder='Email' />
       <input onChange={e => setPhone(e.target.value)} type='text' name='phone' placeholder='Phone' />
       <div className='radio-wrapper'>
         <div className='radio-container' onChange={e => setOccupation(e.target.value)}>
