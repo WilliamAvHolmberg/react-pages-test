@@ -5,7 +5,7 @@ import ReadMoreButton from '../read-more-button/read-more-button'
 
 function Hero () {
   const [siteLoaded, setLoaded] = useState(false)
-  const [array] = useState(['The first ever King of Pong', 'Music, Food & Drinks', '23 October'])
+  const [array] = useState(['The first ever King of Pong', 'Music, Food & Drinks', '23 October, 2019'])
 
   useEffect(() => {
     setLoaded(true)
