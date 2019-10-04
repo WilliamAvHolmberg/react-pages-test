@@ -25,9 +25,12 @@
             }
 
             a {
-                color: $primary-red;
+                color: white;
                 font-weight: 300;
                 font-size: 16px;
+            }
+            a:hover, a:focus {
+              color: $primary-red;
             }
         }
     }
