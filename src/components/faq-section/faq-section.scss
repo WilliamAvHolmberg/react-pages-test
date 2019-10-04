@@ -2,6 +2,7 @@
 .faq-section {
   background: white;
   color: #333;
+  height: auto;
 
   strong {
     color: red;
@@ -15,6 +16,9 @@
     }
   }
   .right-side {
+    padding-top: 20px;
+    padding-bottom: 80px;
+
     .accordion {
       .title {
         font-weight: 500;
@@ -54,6 +58,7 @@
 
     .right-side {
       height: auto !important;
+      padding-top: 0px;
       padding-bottom: 10px;
       .accordion {
         max-width: 90vw !important;
