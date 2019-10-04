@@ -1,9 +1,5 @@
 @import 'variables.scss';
 .sign-up-section {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100vw;
   background-color: $primary-red;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 80px, rgba(160,2,2,.5) 80px, rgba(160,2,2,.5) 160px);
   color: white;
@@ -16,44 +12,8 @@
   }
 
   .right-side {
-    margin: 2em 0px 0px 0px;
+    height: auto !important;
+    margin-top: 20px;
     max-width: 500px;
-  }
-}
-
-
-@media (max-width: 868px){
-  .sign-up-section {
-    flex-direction: column !important;
-    .left-side {
-      flex-direction: column !important;
-      width: 100vw !important;
-      height: 40vh !important;
-      .divider {
-        height: 2px !important;
-        margin-left: auto;
-        margin-right: auto;
-        width: 500px;
-        max-width: 85vw;
-      }
-    }
-
-    .right-side {
-      align-self: center !important;
-      flex-direction: column !important;
-      overflow: hidden !important;
-      height: 60vh !important;
-      width: 100vw !important;
-    }
-  }
-
-  .sign-up-section {
-    .left-side {
-      height: 20vh !important;
-    }
-
-    .right-side {
-      height: 80vh !important;
-    }
   }
 }

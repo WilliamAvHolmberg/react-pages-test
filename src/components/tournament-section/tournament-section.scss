@@ -1,12 +1,8 @@
 @import 'variables.scss';
 .tournament-section {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100vw;
-  background-image: url(/img/samsonov.jpg);
+  background-image: url(/img/tournament-bg.jpg);
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.85);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
   color: white;
 
   strong {
@@ -30,8 +26,5 @@
         font-weight: 300;
       }
     }
-  }
-  .read-more-button-container {
-    top: calc(400vh - 45px);
   }
 }

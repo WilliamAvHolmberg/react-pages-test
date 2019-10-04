@@ -1,14 +1,9 @@
 @import 'variables.scss';
 .social-section {
-  background-image: url(/img/samsonov.jpg);
+  background-image: url(/img/social-bg.jpg);
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.85);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
   color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  height: 100vh;
-  width: 100vw;
 
   strong {
     color: $primary-red;
@@ -45,15 +40,6 @@
       margin-top: 15px;
       font-weight: 300;
       font-size: 32px;
-    }
-  }
-
-  .read-more-button-container {
-    top: calc(200vh - 45px);
-    .read-more-button {
-      border-bottom: solid 1px white;
-      color: white !important;
-      opacity: 1 !important;
     }
   }
 }

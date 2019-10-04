@@ -1,9 +1,5 @@
 @import 'variables.scss';
 .when-where-section {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100vw;
   background-color: $primary-red;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 80px, rgba(160,2,2,.5) 80px, rgba(160,2,2,.5) 160px);
   color: white;
@@ -29,8 +25,5 @@
         font-weight: 300;
       }
     }
-  }
-  .read-more-button-container {
-    top: calc(300vh - 45px);
   }
 }

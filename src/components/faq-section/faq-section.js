@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { Accordion, Icon } from 'semantic-ui-react'
+import ReadMoreButton from '../read-more-button/read-more-button'
 import './faq-section.scss'
 
 function FaqSection () {
   const [activeIndex, setActiveIndex] = useState(null)
-  var test = [
+  var items = [
     {
       question: 'Who\'s this event for for?',
       answer: 'Everyone! Of all genders, ages and personalities.'
@@ -27,7 +28,7 @@ function FaqSection () {
     },
     {
       question: 'Do I need to bring a bat?',
-      answer: (<span>If you have a bat with <a href='https://ittf.cdnomega.com/eu/2019/05/LARC-2019A-FINAL.pdf' target='_blank'>ITTF approved rubbers</a>, you should bring it. However, there will be a limited number of bats to borrow if you don't have one.</span>)
+      answer: (<span>If you have a bat with <a href='https://ittf.cdnomega.com/eu/2019/05/LARC-2019A-FINAL.pdf' target='_blank' rel='noopener noreferrer'>ITTF approved rubbers</a>, you should bring it. However, there will be a limited number of bats to borrow if you don't have one.</span>)
     },
     {
       question: 'Can I wear anything I want?',
@@ -39,7 +40,7 @@ function FaqSection () {
     },
     {
       question: 'Where can I learn about the rules?',
-      answer: (<span>We use the rules of <a href='http://www.svenskbordtennis.com/' target='_blank'>SBTF</a>  with adjustments for the size and net height of a mini table. <a href='http://www.svenskbordtennis.com/globalassets/svenska-bordtennisforbundet/dokument/tavlingsdokument/2-spelregler.pdf' target='_blank'>You'll find the rules here.</a></span>)
+      answer: (<span>We use the rules of <a href='http://www.svenskbordtennis.com/' target='_blank' rel='noopener noreferrer'>SBTF</a>  with adjustments for the size and net height of a mini table. <a href='http://www.svenskbordtennis.com/globalassets/svenska-bordtennisforbundet/dokument/tavlingsdokument/2-spelregler.pdf' target='_blank' rel='noopener noreferrer'>You'll find the rules here.</a></span>)
     },
     {
       question: 'What kind of tables will we be playing on?',
@@ -71,11 +72,11 @@ function FaqSection () {
     },
     {
       question: 'Are you using any tournament software?',
-      answer: (<span>Yes, <a href='http://www.konkuri.com/' target='_blank'>Konkuri</a> will be used to draw groups and to generate the knockout tree.</span>)
+      answer: (<span>Yes, <a href='http://www.konkuri.com/' target='_blank' rel='noopener noreferrer'>Konkuri</a> will be used to draw groups and to generate the knockout tree.</span>)
     },
     {
       question: 'Who is Dotnet Mentor?',
-      answer: (<span>We are an IT consulting and product development company based in Gothenburg. Read more about us at <a href='http://dotnetmentor.se/' target='_blank'>dotnetmentor.se</a>.</span>)
+      answer: (<span>We are an IT consulting and product development company based in Gothenburg. Read more about us at <a href='http://dotnetmentor.se/' target='_blank' rel='noopener noreferrer'>dotnetmentor.se</a>.</span>)
     },
     {
       question: 'What if I need to cancel?',
@@ -84,35 +85,37 @@ function FaqSection () {
   ]
   return (
     <div id='faq' className='section faq-section'>
-      <div className='left-side'>
-        <h2 className='section-title'>FAQ</h2>
-        <span className={'divider '} />
+      <div className='content-container'>
+        <div className='left-side'>
+          <h2 className='section-title'>FAQ</h2>
+          <span className={'divider '} />
+        </div>
+        <div className='right-side'>
+          <Accordion styled>
+            {items.map((item, index) => {
+              return (
+                <div key={item.question}>
+                  <Accordion.Title
+                    active={activeIndex === index}
+                    index={index}
+                    onClick={() => {
+                      setActiveIndex(((activeIndex === index) ? -1 : index))
+                    }}>
+                    <Icon name='dropdown' />
+                    {item.question}
+                  </Accordion.Title>
+                  <Accordion.Content style={{ height: 'auto' }} active={activeIndex === index}>
+                    <p>
+                      {item.answer}
+                    </p>
+                  </Accordion.Content>
+                </div>
+              )
+            })}
+          </Accordion>
+        </div>
       </div>
-      <div className='right-side'>
-        <Accordion styled>
-
-          {test.map((item, index) => {
-            return (
-              <div>
-                <Accordion.Title
-                  active={activeIndex === index}
-                  index={index}
-                  onClick={() => {
-                    setActiveIndex(((activeIndex === index) ? -1 : index))
-                  }}>
-                  <Icon name='dropdown' />
-                  {item.question}
-                </Accordion.Title>
-                <Accordion.Content style={{ height: 'auto' }} active={activeIndex === index}>
-                  <p>
-                    {item.answer}
-                  </p>
-                </Accordion.Content>
-              </div>
-            )
-          })}
-        </Accordion>
-      </div>
+      <ReadMoreButton targetElement={'sign-up'} text='Sign Up Now' />
     </div>
   )
 }

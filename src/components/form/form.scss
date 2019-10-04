@@ -34,51 +34,35 @@ input, textarea {
 }
 
 .radio-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 400px;
+    text-align: left;
+
     .radio-container {
-        display: flex;
-        flex-direction: row;
+      width: 400px;
+      padding: 10px 0;
 
-        .radio-buttons {
-            display: flex;
-            flex-direction: row;
-            p {
-                font-size: 18px;
-                font-weight: bold;
-                display: flex;
-                align-items: center;
-            }
-            .radio-button {
-                display: flex;
-                align-items: center;
-                flex-wrap: wrap-reverse;
-                input {
-                    width: 25px;
-                    margin-left: 15px;
-                }
-                label {
-                    font-size: 18px;
-                }
-            }
-        }
-    }
-}
+      p {
+          font-size: 14px;
+          font-weight: bold;
+          display: inline;
+      }
 
-.radio-container-test {
-    display: flex;
-    flex-direction: row;
+      input {
+          width: 20px;
+          margin: 0 5px 0 10px;
+          vertical-align: text-bottom;
+      }
+      label {
+          font-size: 14px;
+      }
+  }
 }
 
 .food-pref {
-    display: flex;
-    flex-direction: column;
     margin-top: 10px;
     p {
-        font-size: 18px;
-        font-weight: 300;
+        font-size: 14px;
+        font-weight: bold;
     }
     textarea {
         width: 400px;
@@ -88,49 +72,25 @@ input, textarea {
 
 @media (max-width: 878px) {
     form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+
         input, textarea {
             margin-top: 5px;
-            max-width: 80vw;
+            max-width: 300px;
         }
 
         button {
             margin-top: 5px;
             align-self: flex-start;
-            margin-left: 10vw;
         }
     }
 
-    .radio-wrapper {
-        width: 80vw;
-        .radio-container {
-            .radio-buttons {
-                margin-bottom: 12px;
-                p {
-                  font-size: 12px;
-                  font-weight: 500;
-                }
-                .radio-button {
-                    input {
-                        margin: 0 0 0 12px;
-                    }
-                    label {
-                        font-size: 12px;
-                    }
-                }
-            }
-        }
-    }
     .food-pref {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0px;
         p {
             font-size: 12px;
-            font-weight: 500;
-            text-align: center;
+            text-align: left;
         }
         input {
             height: 40px;

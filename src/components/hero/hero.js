@@ -13,25 +13,24 @@ function Hero () {
 
   return (
     <div className='section hero'>
-      <div className='main'>
-        <h1 className='logo'><img src='/img/logo-white.png' alt='King Of Pong - Mini Table Championship for the IT crowd' /></h1>
-        <div className={'divider ' + (siteLoaded ? 'show' : 'hidden')} />
-        <div className={'roller ' + (siteLoaded ? 'show ' : 'hidden ')}>
-          <TextLoop array={array} interval={3500} />
-          <div onClick={() => {
-            var elmnt = document.getElementById('sign-up')
-            elmnt.scrollIntoView({
-              behavior: 'smooth'
-            })
-          }}className='show-interest-button button'>
-            <p style={{ lineHeight: '60px' }}>Sign up Now</p>
+      <div className='content-container'>
+        <div className='main'>
+          <h1 className='logo'><img src='/img/logo-white.png' alt='King Of Pong - Mini Table Championship for the IT crowd' /></h1>
+          <div className={'divider ' + (siteLoaded ? 'show' : 'hidden')} />
+          <div className={'roller ' + (siteLoaded ? 'show ' : 'hidden ')}>
+            <TextLoop array={array} interval={3500} />
+            <div onClick={() => {
+              var elmnt = document.getElementById('sign-up')
+              elmnt.scrollIntoView({
+                behavior: 'smooth'
+              })
+            }}className='show-interest-button button'>
+              <p style={{ lineHeight: '60px' }}>Sign up Now</p>
+            </div>
           </div>
         </div>
       </div>
-      <ReadMoreButton
-        targetElement={'social'}
-        show={siteLoaded}
-        top={100} />
+      <ReadMoreButton targetElement={'social'} />
     </div>
   )
 }
