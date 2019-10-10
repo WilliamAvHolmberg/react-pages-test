@@ -18,10 +18,10 @@ function FaqSection () {
       question: 'Is there an entry fee?',
       answer: 'No! We do this for the love of the game and to bring likeminded people together for a night of fun and ping pong.'
     },
-    // {
-    //   question: 'Will there be any prizes?',
-    //   answer: ' TBA'
-    // },
+    {
+      question: (<span>I'm a complete noob, can I still enter the competition?</span>),
+      answer: 'Of course you can! Players of all levels are welcome and we encourage everyone to take part.'
+    },
     {
       question: 'When do I need to arrive?',
       answer: "If you're competing, you need to register at least 30 minutes before the tournament starts. In other words, you need to be there at 17.30."
