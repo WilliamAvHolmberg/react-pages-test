@@ -12,6 +12,9 @@ function TournamentSection () {
         </div>
         <div className='right-side'>
           <div className='info-row'>
+            <p className='info-text'>For players of all levels</p>
+          </div>
+          <div className='info-row'>
             <p className='info-text'>Played on 4 mini tables by Stiga</p>
           </div>
           <div className='info-row'>

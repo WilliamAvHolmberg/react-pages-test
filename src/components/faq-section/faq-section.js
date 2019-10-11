@@ -44,7 +44,7 @@ function FaqSection () {
     },
     {
       question: 'What kind of tables will we be playing on?',
-      answer: 'TBA'
+      answer: 'Stiga Mini Table (125 x 75 x 72 cm) with a net height of 11,5 cm.'
     },
     {
       question: 'What format is used for the tournament?',
