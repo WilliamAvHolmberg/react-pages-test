@@ -12,12 +12,12 @@ function StartPage () {
   return (
     <div className='App'>
       <Hero />
-      <SocialSection />
+      {/* <SocialSection />
       <WhenWhereSection />
       <TournamentSection />
       <FaqSection />
       <SignUpForm />
-      <Footer />
+      <Footer />*/}
     </div>
   )
 }
