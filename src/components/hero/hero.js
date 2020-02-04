@@ -16,7 +16,7 @@ function Hero () {
       <video
         autoPlay
         muted
-        playsinline="playsinline"
+        playsInline="playsinline"
         loop
         className="video"
       >
